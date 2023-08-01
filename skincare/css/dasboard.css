@@ -1,0 +1,30 @@
+.navbar-custom {
+    background-color: #ED7B84;
+    color: #ffffff;
+}
+
+.navbar-custom .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.sidebar-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.sidebar-nav-item {
+    margin-bottom: 0.5rem;
+}
+
+.sidebar-nav-link {
+    color: #000000;
+    font-size: 0.9rem;
+}
+.barang-img {
+    max-width: 100px;
+    max-height: 100px;
+}

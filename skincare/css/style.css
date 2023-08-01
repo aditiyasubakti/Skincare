@@ -1,0 +1,43 @@
+body {
+    background-color: #F1ABA8;
+}
+
+.pesan-title {
+    color: #ffffff; /* Ubah warna tulisan menjadi #F1ABA8 */
+    font-family: 'Arial', sans-serif; /* Ubah jenis font menjadi 'Arial' atau font yang Anda inginkan */
+    font-size: 28px; /* Ubah ukuran font menjadi 28px atau ukuran yang Anda inginkan */
+    text-align: center; /* Tengahkan tulisan secara horizontal */
+    text-transform: uppercase; /* Ubah menjadi huruf kapital semua */
+    letter-spacing: 2px; /* Tambahkan spasi antara huruf */
+    margin-bottom: 20px; /* Berikan jarak bawah */
+}
+a.link-produc {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.link-produc:hover {
+    color: inherit;
+}
+/* efek transisi */
+.link-produc {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.link-produc:hover {
+    transform: scale(1.05);
+}
+
+.link-produc .card-img-top {
+    transition: transform 0.3s;
+}
+
+.link-produc:hover .card-img-top {
+    transform: scale(1.2);
+}
+.link-produc button {
+    background-color: transparent;
+    border: none;
+}
